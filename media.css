@@ -5,6 +5,7 @@
   }
   .about-me {
     flex-direction: column;
+       width: 80%;
   }
   .all-services {
     flex-direction: column;
@@ -53,5 +54,40 @@
   }
   .con-1, .con-2, .con-3{
     width: 90%;
+  }
+  
+ .about-me{
+  width: 100%;
+ }
+  
+
+}
+
+@media (max-width: 400px) {
+  .art-work-1 h1 {
+    font-size: 1.2em !important;
+  }
+  .art-work-1 h4 {
+    font-size: 1.2em !important;
+  }
+  .art-work-1 {
+    align-items: center;
+    justify-content: center;
+  }
+  .about-me-2{
+    margin: 0 !important;
+  }
+  .about-me{
+    flex-direction: column;
+    padding: 15px !important;
+  }
+  .about-me-2 {
+    margin: 5px !important;
+  }
+  .section-child-2{
+    width: 100% !important;
+  }
+  .palmpay {
+    width: 70% !important;
   }
 }
