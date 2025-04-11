@@ -1,0 +1,57 @@
+@media (max-width: 668px) {
+  .art-work {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-me {
+    flex-direction: column;
+  }
+  .all-services {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .all-contact {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .main-section-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-child-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul{
+    background-color: rgb(180, 180, 232);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    flex-direction: column;
+    top: 60px;
+    text-align: center;
+    padding: 2em 0;
+    left: 100%;
+    transition: all .3s ease-in;
+    height: 100vh;
+  
+  }
+  .hamburger{
+    display: block;
+  }
+  .motion{
+    left: 0;
+  }
+  .web-1, .web-2, .web-3{
+    width: 80%;
+  }
+  .portfolio-1{
+    width: 90%;
+  }
+  .con-1, .con-2, .con-3{
+    width: 90%;
+  }
+}
