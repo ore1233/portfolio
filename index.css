@@ -102,6 +102,14 @@ button a {
   transition: all .3s ease-in;
 
 }
+.about-1 img {
+  width: 100%;
+}
+
+.art-work-2 img{
+  width: 100%;
+}
+
 .art-work-1 a:hover{
   background-color:rgba(134, 134, 195, 0.338);
 
@@ -120,7 +128,7 @@ button a {
   justify-content: center;
 }
 .about-me-2 {
-  margin: 100px;
+  /* margin: 100px; */
 }
 .about-me-2 h1 {
   font-size: 30px;
@@ -416,6 +424,7 @@ button a {
   gap: 60px;
 }
 
+
 footer {
   background-color: black;
 }
@@ -432,4 +441,8 @@ footer p {
 
 .hamburger {
   display: none;
+}
+
+.fa-bars {
+  color: white;
 }
